@@ -30,9 +30,17 @@
             /* background-color: white; */
             margin: 0px;
             padding: 0px;
+        }
+
+        body {
+
+            /* background-color: white; */
+            margin: 0px;
+            padding: 0px;
+            /* height: 2000px; */
 
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
             flex-flow: column;
         }
@@ -59,26 +67,41 @@
             text-align: center;
         }
 
-        #Description {
+        /* #PicturesRoot {
+
+            FOR REACT CODE
 
             order: 2;
+            width: 100%;
+            height: 20px;
+            background-color: red;
+
+            margin-top: 40px;
+            margin-bottom: 10px;
+        } */
+
+        #Description {
+
+            order: 3;
 
             /* background-color: white; */
             width: 80%;
             min-width: 320px;
             background-color: #33A0A0;
+
             display: flex;
             justify-content: center;
             align-items: center;
             flex-flow: column;
+
             margin-top: 40px;
+            margin-bottom: 40px;
             border-radius: 20px;
         }
 
         .DescriptionText {
 
             font-family: 'Montserrat', sans-serif;
-            order: 1;
             color: white;
             text-align: left;
             padding-left: 20px;
@@ -96,6 +119,9 @@
                 Never Code Alone
             </h1>
         </div>
+
+        <!-- ADD REACT CODE FOR PICTURES IN THIS DIV -->
+        <!-- <div id="PicturesRoot"></div> -->
 
         <div id="Description">
             <p class="DescriptionText">
