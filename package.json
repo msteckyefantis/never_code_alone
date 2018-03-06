@@ -1,0 +1,45 @@
+{
+  "name": "never_code_alone",
+  "version": "1.0.0",
+  "description": "Never Code Alone is a social coding meet up with the intention of encouraging people to come out and code together rather than coding/learning alone.",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node server",
+    "build": "NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://msteckyefantis@github.com/msteckyefantis/never_code_alone.git"
+  },
+  "author": "Michael Stecky-Efantis",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/msteckyefantis/never_code_alone/issues"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^0.1.18",
+    "html-webpack-plugin": "^3.0.4",
+    "material-ui": "^1.0.0-beta.31",
+    "react": "^16.3.0-alpha.1",
+    "react-dom": "^16",
+    "reduxx": "^9.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.32",
+    "@babel/preset-env": "^7.0.0-beta.32",
+    "aws-sdk": "^2.175.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^8.0.0-beta.0",
+    "dotenv": "^4.0.0",
+    "expose-loader": "^0.7.3",
+    "express": "^4.15.2",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "webpack": "^4",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-middleware": "^1.10.2"
+  },
+  "homepage": "https://github.com/msteckyefantis/never_code_alone#readme"
+}
